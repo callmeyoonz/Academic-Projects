@@ -1,7 +1,7 @@
 # Credit Scoring & Default Prediction
 
 ## Project Overview
-This project focuses on building a robust quantitative model to predict borrower default using a large-scale credit dataset (149,563 observations). It simulates the model development process required for **IFRS 9** Probability of Default (PD) estimation.
+This project focuses on building a robust quantitative model to predict borrower default using a large-scale credit dataset (149,563 observations). 
 
 ## Key Methodologies
 * **Data Engineering**: Conducted extensive data cleaning, addressing missing values and removing unrealistic records to ensure model robustness.
