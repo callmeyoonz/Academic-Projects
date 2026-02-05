@@ -13,16 +13,6 @@ The goal of this study is to capture market dynamics and microstructure effects 
   - **GAS (Generalized Autoregressive Score) Models:** Normal, Student-t, Skewed Student-t, and GED distributions.
 - **Evaluation:** Model selection via AIC/BIC and performance evaluation using Loss Functions (MSE, QLIKE), Diebold-Mariano tests, and Dynamic Time Warping (DTW).
 
-## Repository Structure
-- `data/`: In-sample and Out-of-sample datasets (returns and realized measures).
-- `src/`:
-  - `data_preprocessing.py`: Data cleaning and resampling logic.
-  - `realized_measures.py`: Calculation of Realized Kernel and Volatility.
-  - `garch_modeling.py`: Estimation of GARCH-family models.
-  - `gas_modeling.py`: Implementation of GAS and Realized GAS models.
-  - `evaluation.py`: Forecasting performance metrics and statistical tests.
-- `report/`: Full academic report in PDF format.
-
 ## Key Findings
 - **Realized Kernel GAS (Normal)** model showed superior performance in terms of loss functions.
 - **Realized Kernel GARCH (Student-t)** better captured long-term dynamic trends in the out-of-sample period.
